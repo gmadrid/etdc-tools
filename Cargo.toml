@@ -1,0 +1,8 @@
+[package]
+name = "etdc"
+version = "0.1.0"
+authors = ["George Madrid <gmadrid@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+itertools = "0.8.0"
