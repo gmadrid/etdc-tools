@@ -2,7 +2,7 @@ use super::Attribute::*;
 use super::Die;
 use super::Face::*;
 
-pub const ABBOT: Die = [
+pub const ABBOT: &Die = &[
     Single(Wisdom),
     Double(Wisdom),
     Single(Wisdom),
@@ -11,7 +11,7 @@ pub const ABBOT: Die = [
     Single(Cunning),
 ];
 
-pub const COOK: Die = [
+pub const COOK: &Die = &[
     Single(Might),
     Double(Might),
     Single(Might),
@@ -20,7 +20,7 @@ pub const COOK: Die = [
     Single(Wisdom),
 ];
 
-pub const MILLER: Die = [
+pub const MILLER: &Die = &[
     Single(Cunning),
     Double(Cunning),
     Single(Cunning),
@@ -29,7 +29,7 @@ pub const MILLER: Die = [
     Single(Wisdom),
 ];
 
-pub const SMITH: Die = [
+pub const SMITH: &Die = &[
     Single(Might),
     Double(Might),
     Single(Might),
@@ -38,7 +38,7 @@ pub const SMITH: Die = [
     Single(Cunning),
 ];
 
-pub const TANNER: Die = [
+pub const TANNER: &Die = &[
     Single(Wisdom),
     Double(Wisdom),
     Single(Wisdom),
@@ -47,7 +47,7 @@ pub const TANNER: Die = [
     Single(Might),
 ];
 
-pub const TAILOR: Die = [
+pub const TAILOR: &Die = &[
     Single(Cunning),
     Double(Cunning),
     Single(Cunning),
